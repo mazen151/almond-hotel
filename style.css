@@ -1,0 +1,235 @@
+body {
+  background-image: url("hotelbg.jpg");
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+
+}
+
+.nav {
+  width: 100%;
+  contain: content;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid white;
+  border-radius: 5px;
+  
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  float: left;
+  background-color: black;
+  opacity: 0.93;
+  height: 80px;
+  
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: white;
+  display: inline-block;
+  padding: 7px 23px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  font-family: system-ui;
+  font-style: upperrcase;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px black;
+  translate: 0 17px;
+  
+}
+
+.mname {
+  translate: 320px 17px;
+  font-family: crusive;
+  font-style: italic;
+  letter-spacing: 20px;
+}
+
+.book:hover{
+  border-bottom: 2px solid white;
+  border-width: 1px;
+  animation-name: z;
+  animation-duration: 1.3s;
+  padding-bottom: 10px;
+  
+}
+.a:hover {
+  border-bottom: 2px solid white;
+  border-width: 1px;
+  animation-name: z;
+  animation-duration: 0.5s;
+  
+}
+
+@keyframes z{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 67%;
+  }
+}
+
+.main {
+  width: 77%;
+  height: 400px;
+  contain: content;
+  margin: auto;
+  border: 3px solid #e8e8e8;
+  border-radius: 5px;
+  translate: 0 100px;
+  box-shadow: 7px 7px 3px #000000;
+  padding-bottom: 20px;
+  background-color: black;
+  opacity: 0.87;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 70px;
+  translate: 100px 0;
+  font-family: sans;
+  font-weight: bolder;
+  font-stretch: ultra-expande;
+  letter-spacing: 30px;
+  background-color: black;
+  border-radius: 30px;
+  width: fit-content;
+  opacity: 0.995;
+  
+}
+
+.bg {
+  background-color: #242323;
+  opacity: 0.9;
+  translate: -40px -14px;
+  width: 270px;
+  height: 280px;
+  border-radius: 50%;
+  
+  
+}
+
+.a1 {
+  color: white;
+  font-size: 25px;
+  font-stretch: ultra-expande;
+  letter-spacing: 4px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  translate: 31px 48px;
+  
+}
+
+.book {
+  color: black;
+  font-size: 25px;
+  translate: 40px 30px ;
+  font-family: roboto;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+
+.nav2 ul {
+  background: transparent;
+}
+
+.servimg {
+  width: 18%;
+  height: 12%;
+  translate: 470px -130px ;
+  border-radius: 20px;
+  border: 2px solid black;
+  
+}
+
+.food{
+  translate: 530px -120px ;
+  color: white;
+  background-color: black;
+  width: 70px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.cleanimg {
+  width: 250px;
+  height: 134px;
+  border-radius: 20px;
+  border: 2px solid black;
+  translate: 790px -357px;
+  
+}
+
+.clean {
+  translate: 860px -348px ;
+  color: white;
+  background-color: black;
+  width: 88px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.pointer {
+  width: 400px;
+  height: 80px;
+  position: relative;
+  background: black;
+  translate: 0 -300px;
+}
+.pointer:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.pointer:before {
+  content: "";
+  position: absolute;
+  right: -40px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 40px solid black;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+}
+
+.why {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 50px;
+  translate: 0 8px;
+}
+
+.why2 {
+  color: white;
+  font-size: 25px;
+  font-family: cursive;
+  translate: 0 -290px;
+  background-color: black;
+  border-radius: 30px;
+  opacity: 0.9;
+  padding-top: 2px;
+  width: 990px;
+  padding: 30px;
+}
