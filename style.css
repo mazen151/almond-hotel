@@ -148,10 +148,9 @@ nav a {
 .servimg {
   width: 250px;
   height: 134px;
-  translate: 470px -357px ;
   border-radius: 20px;
   border: 2px solid black;
-  
+  translate: 490px -357px;
 }
 
 .food{
